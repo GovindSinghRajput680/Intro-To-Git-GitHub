@@ -1,0 +1,5 @@
+pwd- current directory
+cd child directory name - move to child directory
+ls- list all files
+git --version -> get the version
+cd .. -> parent directory
