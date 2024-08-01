@@ -21,7 +21,7 @@
     git push origin main - pushing changes to GitHub.
 
 
-# Making a new directory
+# Making a new directory (Local to Remote)
     mkdir Directory name
     git init
     copy the link of repo from GitHub
@@ -46,6 +46,7 @@
         git reset Head~1  -> It will move you one step back to last commit
 
     *Commited changes for many commit:
+        git log -> veiw hashes and copy the specific link.
         git reset <commithash(means past the hash link)> 
         git reset --hard<past the hash> (it will also update in the local repo)
 
