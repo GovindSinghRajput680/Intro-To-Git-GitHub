@@ -3,3 +3,13 @@ cd child directory name - move to child directory
 ls- list all files
 git --version -> get the version
 cd .. -> parent directory
+* a chnage is three steps process :
+    git commit -m "message you want to display"
+    git add . -> Add all the changes but change will not be updated on GitHub
+    git push origin main ->push all changes to GitHub
+git status -> It will show the status
+
+*Making new directory
+    mkdr "Name of directory"
+    Then git init
+    
