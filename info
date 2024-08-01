@@ -12,4 +12,5 @@ git status -> It will show the status
 *Making new directory
     mkdr "Name of directory"
     Then git init
+Final change
     
