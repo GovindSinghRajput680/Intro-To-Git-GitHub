@@ -7,12 +7,6 @@ ls -Hidden- to view hidden files
 clear -It will clear the terminal
 * a chnage is three steps process :
     git add . -> Add all the changes but change will not be updated on GitHub
-    git commit -m "message you want to display"
-    git push origin main ->push all changes to GitHub
-git status -> It will show the status
-
-*Making new directory
-    mkdr "Name of directory"
-    Then git init
+    git commit -m "message you want to display"git init
 Final change
     
