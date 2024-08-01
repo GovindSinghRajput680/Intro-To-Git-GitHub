@@ -8,5 +8,6 @@ clear -It will clear the terminal
 * a chnage is three steps process :
     git add . -> Add all the changes but change will not be updated on GitHub
     git commit -m "message you want to display"git init
+    git push origin main - pushing changes to GitHub.
 Final change
     
