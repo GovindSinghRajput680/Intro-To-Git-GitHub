@@ -3,6 +3,8 @@ cd child directory name - move to child directory
 ls- list all files
 git --version -> get the version
 cd .. -> parent directory
+ls -Hidden- to view hidden files
+clear -It will clear the terminal
 * a chnage is three steps process :
     git commit -m "message you want to display"
     git add . -> Add all the changes but change will not be updated on GitHub
