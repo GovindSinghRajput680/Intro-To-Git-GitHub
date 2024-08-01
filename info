@@ -9,5 +9,13 @@ clear -It will clear the terminal
     git add . -> Add all the changes but change will not be updated on GitHub
     git commit -m "message you want to display"git init
     git push origin main - pushing changes to GitHub.
-Final change
+
+
+*Making a new directory
+    mkdir Directory name
+    git init
+    copy the link of repo from GitHub
+    Then git remote add origin <past the link>
+    git remote -v ->For verfying
+    git push origin main ->Pushing to GitHub
     
