@@ -1,3 +1,12 @@
+# Configuring git
+    Open git bash
+    git config --global user.name "GOVINDSINGHRAJPUT680"
+    git config --global user.email "govind.singh.23063@iitgoa.ac.in"
+    git config --list (for verifying)
+
+# Clone of a Repo("Means GitHub Repo to local Repo")
+    git clone <past the link>
+
 # Imp Cammands
     pwd- current directory
     cd child directory name - move to child directory
@@ -16,7 +25,7 @@
     mkdir Directory name
     git init
     copy the link of repo from GitHub
-    Then git remote add origin <past the link>
+    git remote add origin <past the link>
     git remote -v ->For verfying
     git push origin main ->Pushing to GitHub
 
@@ -31,9 +40,16 @@
 
 # Undoing changes
     * staged changes:(aise change jinko humne add kr diya pr commit nhi kiya)
-        git reset <file name>
-        git reset (it will reset all files)
+        git reset <file name>  - to unadded
+        git reset (it will reset all files) -to unadded
+    *commited changes:
+        git reset Head~1  -> It will move you one step back to last commit
 
+    *Commited changes for many commit:
+        git reset <commithash(means past the hash link)> 
+        git reset --hard<past the hash> (it will also update in the local repo)
+
+# Fork is a rough copy
 
 
 
