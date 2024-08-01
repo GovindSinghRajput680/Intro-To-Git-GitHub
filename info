@@ -1,21 +1,44 @@
-pwd- current directory
-cd child directory name - move to child directory
-ls- list all files
-git --version -> get the version
-cd .. -> parent directory
-ls -Hidden- to view hidden files
-clear -It will clear the terminal
-* a chnage is three steps process :
+# Imp Cammands
+    pwd- current directory
+    cd child directory name - move to child directory
+    ls- list all files
+    git --version -> get the version
+    cd .. -> parent directory
+    ls -Hidden- to view hidden files
+    clear -It will clear the terminal
+# a change is three steps process :
     git add . -> Add all the changes but change will not be updated on GitHub
     git commit -m "message you want to display"git init
     git push origin main - pushing changes to GitHub.
 
 
-*Making a new directory
+# Making a new directory
     mkdir Directory name
     git init
     copy the link of repo from GitHub
     Then git remote add origin <past the link>
     git remote -v ->For verfying
     git push origin main ->Pushing to GitHub
+
+# Handling with Branches
+    git branch  (to check out branch)
+    git branch -M main (to  change the name)
+    git checkout <branch name > (to navigate in that branch)
+    git checkout -b <new branch name> (to create a new branch)
+    git branch -d <Branch name> (to delet a branch) * we can delet a branch if we are currently in the same branch
+    git diff <Branch name> (It will comapre two branches and tell you the difference)
+    git merge <Branch name> or by GitHub pull request then U have to use git pull origin <branch name>
+
+# Undoing changes
+    * staged changes:(aise change jinko humne add kr diya pr commit nhi kiya)
+        git reset <file name>
+        git reset (it will reset all files)
+
+
+
+
+
+
+
+
     
