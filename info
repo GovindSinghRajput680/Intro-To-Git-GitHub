@@ -16,6 +16,7 @@
     ls -Hidden- to view hidden files
     clear -It will clear the terminal
     git init - to make a normal repo to git repo on our local machine
+    type > file name => it will create a new file
 # a change is three steps process :
     git add . -> Add all the changes but change will not be updated on GitHub
     or for adding a single file=>  git add .\index.html   (now it has reached to staged state)
