@@ -41,7 +41,7 @@
     git branch -M main (to  change the name)
     git checkout <branch name > (to navigate in that branch)
     git checkout -b <new branch name> (to create a new branch)
-    git branch -d <Branch name> (to delet a branch) * we can delet a branch if we are currently in the same branch
+    git branch -d <Branch name> (to delet a branch) * we can delet a branch if we are not in the same branch currently.
     git diff <Branch name> (It will comapre two branches and tell you the difference)
     git merge <Branch name> or by GitHub pull request then U have to use git pull origin <branch name>
 
