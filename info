@@ -17,7 +17,8 @@
     clear -It will clear the terminal
 # a change is three steps process :
     git add . -> Add all the changes but change will not be updated on GitHub
-    git commit -m "message you want to display"git init
+    or for adding a single file=>  git add .\index.html   (now it has reached to staged state)
+    git commit -m "message you want to display , git init
     git push origin main - pushing changes to GitHub.
 
 
@@ -52,7 +53,9 @@
 
 # Fork is a rough copy
 
-
+#git status
+untracked -> files which we have added and git don't know anything about these
+Modifies -> tracked files which we have modified
 
 
 
