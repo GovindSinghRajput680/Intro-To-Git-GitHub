@@ -22,6 +22,9 @@
     //next step is to commit
     git commit -m "message you want to display
     //now we want to display these changes on GitHub so we need to use this
+
+    or for adding and commit together
+    git commit -am "message"
     git push origin main - pushing changes to GitHub.
 
 
