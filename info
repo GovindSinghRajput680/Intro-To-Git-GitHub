@@ -63,7 +63,8 @@
 untracked -> files which we have added and git don't know anything about these
 Modifies -> tracked files which we have modified
 
-
+//push = local to github
+//pull = github to local
 
 
 
