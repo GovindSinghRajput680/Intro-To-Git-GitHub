@@ -18,6 +18,7 @@
 # a change is three steps process :
     git add . -> Add all the changes but change will not be updated on GitHub
     or for adding a single file=>  git add .\index.html   (now it has reached to staged state)
+    //next step is to commit
     git commit -m "message you want to display , git init
     git push origin main - pushing changes to GitHub.
 
