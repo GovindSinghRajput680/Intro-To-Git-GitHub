@@ -48,6 +48,7 @@
 
 # Undoing changes
     * staged changes:(aise change jinko humne add kr diya pr commit nhi kiya)
+        (for last addition)
         git reset <file name>  - to unadded
         git reset (it will reset all files) -to unadded
     *commited changes:
